@@ -28,15 +28,9 @@
 /**
  * Code provided for users following SendGrid instructions linked above.
  */
-// UPDATE with your OpenShift Service Plan ID
-//$service_plan_id = "sendgrid_8b885";
-
-// DO NOT MODIFY
-//$account_info = json_decode(getenv($service_plan_id), true);
-//define('SENDGRID_USERNAME', $account_info['username']);
-//define('SENDGRID_PASSWORD', $account_info['password']);
+//define('SENDGRID_USERNAME', getenv('SENDGRID_USERNAME');
+//define('SENDGRID_PASSWORD', getenv('SENDGRID_PASSWORD');
 //define('SENDGRID_SEND_METHOD', 'api');
-//unset($account_info);
 
 /*
 |--------------------------------------------------------------------------
