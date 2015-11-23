@@ -36,7 +36,7 @@ tarball_md5=$(md5sum wordpress-${install_version}.tar.gz | cut -d ' ' -f 1)
 wordpress_md5=$(curl -Ls http://wordpress.org/wordpress-${install_version}.tar.gz.md5)
 
 if [ "${tarball_md5}" != "${wordpress_md5}" ]; then
-  echo "ERROR: WordPress ${install_version} MD5 checksum mismatch."
+  echo "ERROR: WordPress ${install_version} MD5 checksum mismatch. The wordpress tar file that was downloaded does not match the signature that it should have. Assure that the right tar file and checksum are being acquired by the .openshift/action_hooks/build file."
   exit 1;
 fi
 
