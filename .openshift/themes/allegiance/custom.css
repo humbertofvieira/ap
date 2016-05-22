@@ -80,3 +80,10 @@ img
 .focus-box:nth-child(4n+4) .red-border-bottom:before {
 	background: #f37435;
 }
+.header-content-wrap {
+	background: rgba(0, 0, 0, 0.5);
+	position: relative;
+	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
+	padding: 285px 0 210px;
+}
