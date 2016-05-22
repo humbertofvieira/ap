@@ -11,6 +11,10 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  zerif-lite-lite
 */
+img
+	{
+		max-width: 100vw;	
+	}
 .widget li:before{
 	content: '';
 	width: 0px;
@@ -36,14 +40,10 @@
 @media (max-width: 767px) {
 	.menu-align-center .responsive-logo > a {
 		float: left;
-		max-width: 60vw;
+		max-width: 50vw;
 	}
 }
-img
-	{
-		max-width: 100vw;	
-	}
-.header-content-wrap {
+	.header-content-wrap {
 	position: relative;
 	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
 	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
