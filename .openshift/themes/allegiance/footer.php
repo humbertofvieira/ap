@@ -151,11 +151,12 @@
 		// open link in a new tab when checkbox "accessibility" is not ticked
 		$attribut_new_tab = (isset($zerif_accessibility) && ($zerif_accessibility != 1) ? ' target="_blank"' : '' );
 		
-		/*
+		
 		if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || 
 		!empty($zerif_copyright) || !empty($zerif_socials_instagram) ):
 		
-					echo '<div class="'.$footer_class.' copyright">';
+					
+					echo '<div class="'.$footer_class.' copyright" style="display:none;">';
 					if(!empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble)):
 						echo '<ul class="social">';
 						
@@ -198,7 +199,7 @@
 					echo '</div>';
 			
 		endif;
-		*/
+		
 	?>
 
 </div> <!-- / END CONTAINER -->
