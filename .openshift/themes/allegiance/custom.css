@@ -88,3 +88,9 @@ img
 	padding: 285px 0 210px;
 	height: 90vh;
 }
+@media (max-width: 767px) {
+
+	#main-nav.fixed {
+		position: fixed;
+	}
+}
