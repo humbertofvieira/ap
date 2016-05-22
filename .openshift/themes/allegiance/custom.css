@@ -94,3 +94,6 @@ img
 		position: fixed;
 	}
 }
+.navbar-brand > img {
+    max-width: 50vw;
+}
