@@ -78,9 +78,9 @@
 		elseif( $footer_sections == 3 ):
 			$footer_class = 'col-md-4';
 		elseif( $footer_sections == 4 ):
-			$footer_class = 'col-md-3';
+			$footer_class = 'col-md-4'; //$footer_class = 'col-md-3';
 		else:
-			$footer_class = 'col-md-3';
+			$footer_class = 'col-md-4'; //$footer_class = 'col-md-3';
 		endif;
 		
 		global $wp_customize;
