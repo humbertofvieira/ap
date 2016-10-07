@@ -37,20 +37,6 @@ img
 	margin-top: 20px;
 	padding-top: 20px;
 }
-@media (max-width: 767px) {
-	.menu-align-center .responsive-logo > a {
-		float: left;
-		max-width: 50vw;
-	}
-}
-	.header-content-wrap {
-	position: relative;
-	-webkit-box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
-	box-shadow: 0px 5px 11px 0px rgba(50, 50, 50, 0.08);
-	padding: 285px 0 210px;
-	height: 100vh;
-	height: 100vh;
-}
 .focus-box .service-icon .pixeden  {
 	border-radius: 50%;
 	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
@@ -88,10 +74,18 @@ img
 	padding: 285px 0 210px;
 	height: 90vh;
 }
+
 @media (max-width: 767px) {
 
 	#main-nav.fixed {
 		position: fixed;
+	}
+	.menu-align-center .responsive-logo > a {
+		float: left;
+		max-width: 50vw;
+	}
+	.header-content-wrap {
+		height: 70vh;
 	}
 }
 .navbar-brand > img {
