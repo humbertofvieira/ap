@@ -1,4 +1,25 @@
 
+### 1.0.16 - 13/07/2016
+**Changes:** 
+- Fixed IP issue when using web server behind a reverse proxy
+- Fixed W3C compatibility issues
+- Remove pcf=1#contact from url when theme is different then Zerif
+- Removed blacklist option and made it default set to true
+- Display site key and secret key fields only if recaptcha option is selected
+- New attachment option
+- New thank you URL option
+- New option to make the nonce optional
+
+### 1.0.16 - 20/06/2016
+**Changes:** 
+- #89 textarea field not saving
+
+### 1.0.15 - 10/06/2016
+**Changes:** 
+- Update screenshots
+- Added a clearfix after the Pirate Forms widget to avoid messed layout
+- Update compatible WordPress version number
+
 ### 1.0.14 - 23/05/2016
 **Changes:** 
 - Reorganize backend content
