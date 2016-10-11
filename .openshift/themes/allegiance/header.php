@@ -32,14 +32,14 @@ endif;
 wp_head(); ?>
 
 <style>
-#content {display: none;}
+div#content {display: none;}
 </style>
 
 <script>jQuery(document).ready(
 	function()
 	{
-		var url='http://www.allegiancepharma.com.br/teste/';
-		if (location.href.indexOf(url)>0 && location.href!=url && document.referrer!=url)
+		var url='http://www.allegiancepharma.com.br/downloads/';
+		if (location.href.indexOf(url)>=0 && location.href!=url && document.referrer!=url)
 		{
 			self.location=url;
 		}else
