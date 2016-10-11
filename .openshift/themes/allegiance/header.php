@@ -38,9 +38,9 @@ div#content {display: none;}
 <script>jQuery(document).ready(
 	function()
 	{
-		var url='.+downloads/';
-		var re1 = new RegExp(url+'.+');
-		var re2 = new RegExp(url+'$');
+		var url='/downloads/';
+		var re1 = new RegExp('.+'+url+'.+');
+		var re2 = new RegExp('.+'+url+'$');
 		if (re1.test(location.href) && !re2.test(document.referrer))
 		{
 			self.location=url;
