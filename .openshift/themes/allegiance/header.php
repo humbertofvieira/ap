@@ -31,9 +31,7 @@ endif;
 
 wp_head(); ?>
 
-<style>
-div#content {display: none;}
-</style>
+
 
 <script>jQuery(document).ready(
 	function()
@@ -44,9 +42,6 @@ div#content {display: none;}
 		if (re1.test(location.href) && !re2.test(document.referrer))
 		{
 			self.location=url;
-		}else
-		{
-			jQuery("#content").show();
 		}
 	}
 );</script>
