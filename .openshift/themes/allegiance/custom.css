@@ -92,3 +92,8 @@ img
 .navbar-brand > img {
     max-width: 50vw;
 }
+
+/* fixes compatibility with download manager plugin where drop down menu collapses all the time */
+nav#site-navigation.in {
+	height: auto !important;
+}
