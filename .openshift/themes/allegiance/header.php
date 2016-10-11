@@ -38,8 +38,10 @@ div#content {display: none;}
 <script>jQuery(document).ready(
 	function()
 	{
-		var url='http://www.allegiancepharma.com.br/downloads/';
-		if (location.href.indexOf(url)>=0 && location.href!=url && document.referrer!=url)
+		var url='.+downloads/';
+		var re1 = new RegExp(url+'.+');
+		var re2 = new RegExp(url+'$');
+		if (re1.test(location.href) && !re2.test(document.referrer))
 		{
 			self.location=url;
 		}else
